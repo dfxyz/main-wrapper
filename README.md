@@ -5,6 +5,18 @@ as daemon.
 
 Usage
 --------------------------------------------------------------------------------
+0. Acquire main-wrapper; If you use gradle or maven, you can use 
+[JitPack](https://jitpack.io/) to depend on this repository:
+    ```gradle
+    repositories {
+        // ...
+        maven { url 'https://jitpack.io' }
+    }
+    dependencies {
+        // ...
+        implementation 'com.github.dfxyz:main-wrapper:[TAG]'
+    }
+    ```
 1. Create a class (e.g. `MainWrapper`) which extends 
 `dfxyz.mainwrapper.AbstractMainWrapper`:
     * Call `new MainWrapper().invoke(args)` in the main function
