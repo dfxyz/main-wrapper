@@ -11,8 +11,6 @@ import java.util.regex.Pattern;
 
 @SuppressWarnings("unused")
 public abstract class AbstractMainWrapper {
-
-    private static final String APP_HOME = "app.home";
     private static final String APP_PROCESS_UUID = "app.process.uuid";
 
     private static final String SINGLE_QUOTE = "\'";
